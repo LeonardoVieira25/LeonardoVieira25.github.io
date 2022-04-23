@@ -1,6 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Roboto+Mono&display=swap');
+/* 
+font-family: 'Libre Bodoni', serif;
+font-family: 'Roboto Mono', monospace;
+*/
 *{
     padding: 0;
     margin: 0;
     border: 0;
-    background-color: gray;
+}
+.App{
+    background-color: #1D1C22;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Libre Bodoni', serif;
+}
+.Title{
+    margin-top: 200px;
+    font-size: 35px;
+    background-color: #F1F0EA;
+    padding: 1em;
+    height: min-content;
+}
+.code{
+    font-family: 'Roboto Mono', monospace;
+    color: #CF5C36;
+}
+
+.DownArrow > img{
+    color: white;
+    /* aspect-ratio: 1/1; */
+    height: 200px;
 }
